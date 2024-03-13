@@ -1,0 +1,26 @@
+baseURL = 'http://example.com'
+languageCode = 'en-us'
+theme="basic"
+paginate=100
+
+[params]
+    DateForm = "2006.01.02"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight =5
+[[menu.main]]
+    name = "Rss"
+    url = "/index.xml"
+    weight =6
+[markup]
+  [markup.highlight]
+    noClasses=true
+    style="nord"
+  [markup.goldmark.renderer]
+    unsafe = true # Allow HTML in md files
