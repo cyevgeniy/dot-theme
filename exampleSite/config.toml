@@ -1,8 +1,6 @@
 baseURL = 'http://example.com'
 languageCode = 'en-us'
-theme="basic"
-paginate=100
-
+theme="dot-theme"
 [params]
     DateForm = "2006.01.02"
 
@@ -11,13 +9,17 @@ paginate=100
     url = "/"
     weight = 1
 [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight =2
+[[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight =5
+    weight =3
 [[menu.main]]
     name = "Rss"
     url = "/index.xml"
-    weight =6
+    weight =4
 [markup]
   [markup.highlight]
     noClasses=true

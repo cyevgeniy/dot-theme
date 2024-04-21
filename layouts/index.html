@@ -4,10 +4,12 @@
   <body>
     {{- partial "header.html" . -}}
     <ul id="list">
-      {{ range .Paginator.Pages }}
-      {{ $permalink := .RelPermalink }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span>{{ .Date.Format .Site.Params.DateForm }}</span></li>
-      {{ end }}
+      {{ range .Site.RegularPages }}
+        {{ if eq .Section "posts" }}
+          {{ $permalink := .RelPermalink }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span>{{ .Date.Format .Site.Params.DateForm }}</span></li>
+          {{ end }}
+        {{ end }}
     </ul>
     <footer></footer>
   </body>
