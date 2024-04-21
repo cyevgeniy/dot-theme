@@ -1,6 +1,5 @@
 ---
 Title: "Lorem ipsum text"
-categories: ["personal"]
 tags: ["loremipsum"]
 Publishdate: 2021-11-20
 ---

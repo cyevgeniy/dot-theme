@@ -1,9 +1,7 @@
 ---
 Title: "My favorite music"
-featured: true
-hidden: true
-categories: ["personal"]
 tags: ["music"]
+date: "2024-02-20"
 ---
 
 These are my favorite bands:

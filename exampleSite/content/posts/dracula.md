@@ -1,9 +1,7 @@
 ---
 Title: "Dracula"
-categories: ["personal"]
 tags: ["book"]
 Publishdate: 2021-11-18
-featured_image: /img/dracula.jpg
 ---
 
 Copied from [Wikipedia](https://en.wikipedia.org/wiki/Dracula).

@@ -1,8 +1,6 @@
 ---
 Title: "My favorite movies"
 Publishdate: 2021-11-01
-featured: true
-categories: ["personal"]
 tags: ["movies"]
 ---
 
@@ -12,7 +10,6 @@ This is my favorite movies:
 - Anarchy in UK
 - Pianist
 
-<!--more-->
 ## BAFTA Award for Best Film
 
 The BAFTA Award for Best Film is given annually
